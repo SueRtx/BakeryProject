@@ -15,7 +15,17 @@ namespace Bakery.Tests
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
 
+    [TestMethod]
+    public void BreadRegularPrice_ReturnBreadRegPrice_int()
+    {
+      Bread newBread = new Bread(2);
+      newBread.BreadRegularPrice();
+      Assert.AreEqual(10, newBread.BreadRegPrice);
+    }
 
+ 
+   
+   
 
   }
 }
