@@ -23,6 +23,14 @@ namespace Bakery.Tests
       Assert.AreEqual(10, newBread.BreadRegPrice);
     }
 
+    [TestMethod]
+    public void BreadRegularPrice_ReturnBreadSalePrice_int()
+    {
+      Bread newBread = new Bread(3);
+      newBread.BreadRegularPrice();
+      Assert.AreEqual(10, newBread.BreadRegPrice);
+    }
+
  
    
    

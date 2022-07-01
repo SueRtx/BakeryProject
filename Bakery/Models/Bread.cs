@@ -17,9 +17,18 @@ namespace Bakery
 
     public int BreadRegularPrice()
     {
-    for (int i = 0; i < BreadOrder; i++)
+    for (int i = 1; i <= BreadOrder; i++)
     {
-      BreadRegPrice += 5;
+      if ((i % 3) == 0) 
+      {
+      
+        BreadRegPrice -= 0;
+      }
+      else
+      {
+        BreadRegPrice += 5; 
+      }
+      
     }
     return BreadRegPrice;
     }
