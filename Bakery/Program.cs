@@ -7,7 +7,7 @@ public class Program
   {
     Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine(@"
-         SUNNY BAKERY
+        SUNNY  BAKERY
     <------- Menu ------->
     |                    |
     |      *Bread*       |
@@ -52,7 +52,7 @@ public class Program
       else 
       {
         Console.ForegroundColor = ConsoleColor.Yellow;
-      Console.WriteLine("Your Total is: $" + " " + (newBread.BreadOrderTotal + newPastry.PastryOrderTotal));
+        Console.WriteLine("Your Total is: $" + " " + (newBread.BreadOrderTotal + newPastry.PastryOrderTotal));
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("Thank you!");
         Console.WriteLine("Have a Nice Day!");
