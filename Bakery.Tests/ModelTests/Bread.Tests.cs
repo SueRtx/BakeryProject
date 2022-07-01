@@ -16,24 +16,43 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreadRegularPrice_ReturnBreadRegPrice_int()
+    public void BreadPrice_BreadPriceForTwo_int()
     {
       Bread newBread = new Bread(2);
-      newBread.BreadRegularPrice();
-      Assert.AreEqual(10, newBread.BreadRegPrice);
+      newBread.BreadPrice();
+      Assert.AreEqual(10, newBread.BreadOrderTotal);
     }
 
     [TestMethod]
-    public void BreadRegularPrice_ReturnBreadSalePrice_int()
+    public void BreadPrice_BreadPriceForThree_int()
     {
       Bread newBread = new Bread(3);
-      newBread.BreadRegularPrice();
-      Assert.AreEqual(10, newBread.BreadRegPrice);
+      newBread.BreadPrice();
+      Assert.AreEqual(10, newBread.BreadOrderTotal);
     }
 
- 
-   
-   
+    [TestMethod]
+    public void BreadPrice_BreadPriceForSeven_int()
+    {
+      Bread newBread = new Bread(7);
+      newBread.BreadPrice();
+      Assert.AreEqual(25, newBread.BreadOrderTotal);
+    }
 
+    [TestMethod]
+    public void BreadPrice_BreadPriceForEleven_int()
+    {
+      Bread newBread = new Bread(11);
+      newBread.BreadPrice();
+      Assert.AreEqual(40, newBread.BreadOrderTotal);
+    }
+  
+    [TestMethod]
+    public void BreadPrice_BreadPriceForTwelve_int()
+    {
+      Bread newBread = new Bread(12);
+      newBread.BreadPrice();
+      Assert.AreEqual(40, newBread.BreadOrderTotal);
+    }
   }
 }
