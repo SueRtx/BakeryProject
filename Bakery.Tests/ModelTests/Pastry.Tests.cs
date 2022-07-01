@@ -47,6 +47,13 @@ namespace Bakery.Tests
       Assert.AreEqual(9, newPastry.PastryOrderTotal);
     }
 
+    [TestMethod]
+    public void PastryPrice_PastryPriceForSix_int()
+    {
+      Pastry newPastry = new Pastry(6);
+      newPastry.PastryPrice();
+      Assert.AreEqual(10, newPastry.PastryOrderTotal);
+    }
 
 
 
