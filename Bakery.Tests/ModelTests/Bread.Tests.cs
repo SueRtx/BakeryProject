@@ -5,10 +5,11 @@ using Bakery;
 
 namespace Bakery.Tests
 {
-  
+
   [TestClass]
   public class BreadTests
   {
+    
     [TestMethod]
     public void BreadConstructor_CreateInstanceOfBread_Bread()
     {

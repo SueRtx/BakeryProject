@@ -8,6 +8,7 @@ namespace Bakery.Tests
   [TestClass]
   public class PastryTests
   {
+    
     [TestMethod]
     public void PastryConstructor_CreateInstanceOfPastry_Pastry()
     {
@@ -62,10 +63,5 @@ namespace Bakery.Tests
       newPastry.PastryPrice();
       Assert.AreEqual(19, newPastry.PastryOrderTotal);
     }
-
-
-
-
-
   }
 }
