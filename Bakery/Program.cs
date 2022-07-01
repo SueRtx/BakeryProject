@@ -1,5 +1,5 @@
 using System;
-//using Bakery;
+using Bakery;
 
 public class Program
 {
@@ -24,15 +24,14 @@ public class Program
     static void SkipMenu()
     {
       Console.WriteLine("How Many Bread?");
-     // int breadOrder = int.Parse(Console.ReadLine());
+      int breadOrder = int.Parse(Console.ReadLine());
       Console.WriteLine("How Many Pastries?");
-     // int pastryOrder = int.Parse(Console.ReadLine());
-      //Bread newBread = new Bread (breadOrder);
-      //newBread.BreadPrice();
-      //Pastry newPastry = new Pastry (pastryOrder);
-      //newPastry.PastryPrice();
-      Console.WriteLine("Total:");
-     
+      int pastryOrder = int.Parse(Console.ReadLine());
+      Bread newBread = new Bread (breadOrder);
+      newBread.BreadPrice();
+      Pastry newPastry = new Pastry (pastryOrder);
+      newPastry.PastryPrice();
+      Console.WriteLine("Total:" + (newBread.BreadOrderTotal + newPastry.PastryOrderTotal));
     }
   }
 }
