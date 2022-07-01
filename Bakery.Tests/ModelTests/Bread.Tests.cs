@@ -5,7 +5,6 @@ using Bakery;
 
 namespace Bakery.Tests
 {
-
   [TestClass]
   public class BreadTests
   {
