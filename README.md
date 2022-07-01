@@ -12,20 +12,18 @@
 * REPL
 
 ## Description
-When the user runs this application, they are prompted with a welcome message and the cost of bread and pastries. After the user orders  bread and pastries, this application will return the total cost.
-<------- Menu ------->
-|                    |
-|      *Bread*       |
-|     1 for $ 5      |
-| Buy 2 Get One FREE |
-|    (3 FOR $ 10)    |
-|                    |
-|      *Pastry*      |
-|     1 for $ 2      |
-|     3 for $ 5      |
-|     4 for $ 7      |
-|     6 FOR $ 10     |
-<-------------------->
+When the user runs this application, they are prompted with a welcome message and the cost of bread and pastries. After the user orders bread and pastries, this application will return the total cost.
+<--------- Menu -------->
+|        *Bread*        |
+|       1 for $ 5       |
+|   Buy 2 Get One FREE  |
+|      (3 FOR $ 10)     |
+|                       |
+|       *Pastry*        |
+|      1 for $ 2        |
+| Buy 3 Get One 50% Off |
+|     (3 for $ 5)       |
+<----------------------->
 
 ## Setup/Installation Requirements
 
