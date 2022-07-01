@@ -30,7 +30,7 @@ When the user runs this application, they are prompted with a welcome message an
 ## Setup/Installation Requirements
 
 * Open terminal.
-* Clone this repository: $
+* Clone this repository: $ https://github.com/SueRtx/BakeryProject.git
 * Navigate to "BakeryProject": $ cd BakeryProject
 * Open Vs Code: $ code .
 * Open TERMINAL in Vs Code.

@@ -23,7 +23,6 @@ public class Program
     <-------------------->");
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Welcome to Sunny Bakery!");
-
     SkipMenu();
     static void SkipMenu()
     {
