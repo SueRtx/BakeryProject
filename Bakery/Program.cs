@@ -7,8 +7,8 @@ public class Program
   {
     Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine(@"
-        Sunny Bakery
-    -------- Menu --------
+         SUNNY BAKERY
+    <------- Menu ------->
     |                    |
     |      *Bread*       |
     |     1 for $ 5      |
@@ -20,8 +20,10 @@ public class Program
     |     3 for $ 5      |
     |     4 for $ 7      |
     |     6 FOR $ 10     |
-    ----------------------");
-    
+    <-------------------->");
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("Welcome to Sunny Bakery!");
+
     SkipMenu();
     static void SkipMenu()
     {
@@ -34,11 +36,27 @@ public class Program
       newBread.BreadPrice();
       Pastry newPastry = new Pastry (pastryOrder);
       newPastry.PastryPrice();
-      Console.ForegroundColor = ConsoleColor.Green;
-      Console.WriteLine("Bread :" + " " + breadOrder + " " + "for $" + newBread.BreadOrderTotal);
-      Console.WriteLine("Pastry :" + " " + pastryOrder + " " + "for $" + newPastry.PastryOrderTotal);
-      Console.ForegroundColor = ConsoleColor.Yellow;
-      Console.WriteLine("Total: $" + (newBread.BreadOrderTotal + newPastry.PastryOrderTotal));
+      Console.ForegroundColor = ConsoleColor.Magenta;
+      Console.WriteLine(" ");
+      Console.WriteLine("<<< Your Order >>>");
+      Console.WriteLine("Bread :" + " " + breadOrder + " " + "for $" + " " +  newBread.BreadOrderTotal);
+      Console.WriteLine("Pastry:" + " " + pastryOrder + " " + "for $" + " " + newPastry.PastryOrderTotal);
+      Console.WriteLine(" ");
+      Console.ForegroundColor = ConsoleColor.Red;
+      Console.WriteLine("Do you want to change your order? (Yes/No)");
+      string orderAnswer = Console.ReadLine().ToLower();
+      if (orderAnswer == "yes")
+      {
+        SkipMenu();
+      }
+      else 
+      {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+      Console.WriteLine("Your Total is: $" + " " + (newBread.BreadOrderTotal + newPastry.PastryOrderTotal));
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("Thank you!");
+        Console.WriteLine("Have a Nice Day!");
+      }
     }
   }
 }
