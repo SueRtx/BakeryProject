@@ -11,14 +11,14 @@ public class Program
     <-------- Menu -------->
     |                      |
     |        *Bread*       |
-    |       1 for $ 5      |
+    |       1 for $5       |
     |  Buy 2 Get One FREE  |
-    |      (3 FOR $ 10)    |
+    |      (3 FOR $10)     |
     |                      |
     |       *Pastry*       |
-    |      1 for $ 2       |
-    |  Buy 3 Get $ 1 Off   |
-    |     (3 for $ 5)      |
+    |       1 for $2       |
+    |  Buy  3 Get $1 Off   |
+    |      (3 for $5)      |
     |                      |
     <---------------------->");
     Console.ForegroundColor = ConsoleColor.Green;
