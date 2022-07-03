@@ -7,20 +7,20 @@ public class Program
   {
     Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine(@"
-            SUNNY BAKERY
-    <--------- Menu -------->
-    |                       |
-    |        *Bread*        |
-    |       1 for $ 5       |
-    |   Buy 2 Get One FREE  |
-    |      (3 FOR $ 10)     |
-    |                       |
-    |       *Pastry*        |
-    |      1 for $ 2        |
-    | Buy 3 Get One 50% Off |
-    |     (3 for $ 5)       |
-    |                       |
-    <----------------------->");
+          SUNNY BAKERY
+    <-------- Menu -------->
+    |                      |
+    |        *Bread*       |
+    |       1 for $ 5      |
+    |  Buy 2 Get One FREE  |
+    |      (3 FOR $ 10)    |
+    |                      |
+    |       *Pastry*       |
+    |      1 for $ 2       |
+    |  Buy 3 Get $ 1 Off   |
+    |     (3 for $ 5)      |
+    |                      |
+    <---------------------->");
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Welcome to Sunny Bakery!");
     SkipMenu();
