@@ -5,8 +5,8 @@ namespace Bakery
 {
   public class Pastry
   {
-    public int PastryOrder { get; set; }
-    public int PastryOrderTotal { get; set; }
+    public int PastryOrder {get; set;}
+    public int PastryOrderTotal {get; set;}
     public Pastry  (int pastryOrder)
     {
       PastryOrder = pastryOrder;
