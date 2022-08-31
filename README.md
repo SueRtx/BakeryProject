@@ -15,7 +15,10 @@
 When the user runs this application, they are prompted with a welcome message and the cost of bread and pastries. After the user orders bread and pastries, this application will return the total cost.
 
 *  Bread: 1 for $5, Buy 2 Get One FREE < 3 FOR $10 > 
-*  Pastry:  1 for $2,  Buy 3 Get $1 Off < 3 for $5 >       
+*  Pastry:  1 for $2,  Buy 3 Get $1 Off < 3 for $5 > 
+
+## Console View 
+![Console](Bakery/image/Bakery1.png "Console image")
 
 ## Setup/Installation Requirements
 
